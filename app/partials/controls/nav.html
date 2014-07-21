@@ -5,7 +5,7 @@
                 <ul class="nav navbar-nav pull-left">
                     <li class="back animated fadeInLeft" ng-class="{'ng-hide': isActive('catalog')}">
                         <a href back-step class="back">
-                            <i class="fa fa-arrow-left"></i>
+                            <i class="fa fa-arrow-left" style="color:#666;"></i>
                         </a>
                     </li>
                     <li class="products" ng-class="{'active': isInPath('catalog') || isInPath('product') || isInPath('cart/default') || isInPath('search')}">
@@ -60,8 +60,8 @@
                                 </a>
                             </li>
                             <li id="451qa_mesg_link" ng-show="user.Permissions.contains('ViewContactUs')" class="contactus">
-                                <a href="contactus">
-                                    {{'Contact Us' | r}}
+                                <a href="aboutus">
+                                    {{'About Us' | r}}
                                 </a>
                             </li>
                             <li class="divider"></li>
