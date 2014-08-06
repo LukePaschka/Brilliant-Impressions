@@ -1,42 +1,21 @@
-<section class="jumbotron" ng-class="{'active': isActive('catalog')}" ng-show="user.Company.LogoUrl">
-    <div class="jumbo-notification">
-        <div class="container">
-            <a target="_blank" href="http://www.brilliantimpressions.com">View Promotional Products <i class="fa fa-chevron-right"></i></a>
+<section class="jumbotron" ng-class="{'active': isActive('catalog')}" ng-show="user.Company.LogoUrl" style="padding: 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <h2 class="thumbnail" ng-show="Four51User.isAuthenticated()">
+                    <a ng-click="refreshUser()" href="catalog"><img ng-src="{{user.Company.LogoUrl}}" /></a>
+                </h2>
+            </div>
+            <div class="col-sm-8 col-sm-offset-1 text-left">
+                <div class="callout callout-info" style="margin: 0;">
+                    <p style="font-size: 1em;">
+                        Brilliant Impressions has partnered with AIA corporation, a top 15 promotional products distributorship. Brilliant Impressions provides clients with exceptional local service with unmatched creativity and industry knowledge. With this partnership, Brilliant Impressions is poised to leverage AIA's vast resources to deliver more comprehensive services to their clients through a multi-faceted approach.
+                    </p>
+                    <p>
+                        <a target="_blank" href="http://www.brilliantimpressions.com"> View Promotional Products <i class="fa fa-chevron-right"></i></a>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="container">
-        <h2 class="thumbnail" ng-show="Four51User.isAuthenticated()">
-            <div class="row">
-                <div class="col-md-4">
-                    <a ng-click="refreshUser()" href="catalog">
-                        <img ng-src="{{user.Company.LogoUrl}}" />
-                    </a>
-                </div>
-                <div class="col-md-8"><p style="font-size:.5em; padding-top:30px;">Brilliant Impressions has partnered with AIA corporation, a top 15 promotional products distributorship. Brilliant Impressions provides clients with exceptional local service with unmatched creativity and industry knowledge. With this partnership, Brilliant Impressions is poised to leverage AIA's vast resources to deliver more comprehensive services to their clients through a multi-faceted approach.</p></div>
-            </div>
-            <!--<div class="row" style="font-size:0.5em;">
-                <div class="col-sm-8 text-right">
-                    <h3 style="border-bottom:1px solid #4c9d2a; color:#4c9d2a;">Marketplace Positioning</h3>
-                    <p>Ranked in the top 1% of promotional products companies in revenue in North America, AIA Corporation has been a leader in the industry for over 20 years. AIA's reputation and position strength provide greater buying power, more competitive pricing, and brand name access which Brilliant Impressions can offer to its customers.</p>
-                </div>
-                <div class="col-sm-4 text-center">picture</div>
-            </div>
-            <div class="row" style="font-size:0.5em;">
-                <div class="col-sm-4 text-center">picture</div>
-                <div class="col-sm-8 text-left">
-                    <h3 style="border-bottom:1px solid #4c9d2a; color:#4c9d2a;">Technology</h3>
-                    <p>AIA Corporation has key technology partners that enable Brilliant Impressions to offer the latest on-trend technologies and services to their clients. These technologies enhance the efficiency of promotional products by providing a more robust experiential marketing platform.</p>
-                </div>
-            </div>-->
-
-        </h2>
-
-    </div>
-    <div class="decoration-top a"></div>
-    <div class="decoration-top b"></div>
-    <div class="decoration-top c"></div>
-    <div class="decoration-bottom a"></div>
-    <div class="decoration-bottom b"></div>
-    <div class="decoration-bottom c"></div>
-    <div class="decoration-bottom d"></div>
 </section>
