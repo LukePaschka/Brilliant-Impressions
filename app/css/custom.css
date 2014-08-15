@@ -1,7 +1,7 @@
 body {  font-family: 'Lato',sans-serif;}
 hr {border-color: transparent;}
 .branded p, .brandedEcommerce p {font-size: 16px;}
-.branded ul, .brandedEcommerce ul {
+.brandedEcommerce ul {
     font-size: 16px;
     list-style-image: url('../css/images/bullet.png');
     padding-left: 30px;
