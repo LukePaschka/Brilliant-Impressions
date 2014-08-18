@@ -24,9 +24,15 @@ hr {border-color: transparent;}
 .brandedEcommerce .alert-info {background-color:#0083C1;color: #fff;}
 
 .splashMe {
+    animation-duration: 4s;
     -moz-animation-duration: 4s;
+    -webkit-animation-duration: 4s;
+    animation-delay: 4s;
     -moz-animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+    animation-iteration-count: 1;
     -moz-animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
 }
 
 
