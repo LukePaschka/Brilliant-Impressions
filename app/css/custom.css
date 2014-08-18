@@ -23,16 +23,25 @@ hr {border-color: transparent;}
 .brandedEcommerce  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #D9EDF7 url('../css/images/fadedBlue.png') 185% repeat-y;}
 .brandedEcommerce .alert-info {background-color:#0083C1;color: #fff;}
 
+.splashMe {
+    -moz-animation-duration: 4s;
+    -moz-animation-delay: 4s;
+    -moz-animation-iteration-count: 1;
+}
 
 
 
 @media (max-width: 618px) {
     .branded {background: #fff url('../css/images/fadedCircle.png') right -550px top no-repeat;}
     .brandedEcommerce {background: #D9EDF7 url('../css/images/fadedBlue.png') right -350px top no-repeat; }
+    .splashMe .animated.rotateIn {margin: 0 auto !important;}
+    .splashMe .bisplashlogo {margin: 35px auto 0 auto !important;}
 }
 @media (min-width: 618px) and (max-width: 768px) {
     .branded {background: #fff url('../css/images/fadedCircle.png') right -350px top no-repeat;}
     .brandedEcommerce {background: #D9EDF7 url('../css/images/fadedBlue.png') right -350px top no-repeat; }
+    .splashMe .animated.rotateIn {margin: 0 auto !important;}
+    .splashMe .bisplashlogo {margin: 35px auto 0 auto !important;}
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
