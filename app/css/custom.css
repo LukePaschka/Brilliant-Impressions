@@ -1,20 +1,25 @@
 body {  font-family: 'Lato',sans-serif;}
 hr {border-color: transparent;}
-.branded p, .brandedEcommerce p {font-size: 16px;}
-.brandedEcommerce ul:not(.links) {
+.brand p {font-size: 16px;}
+.brand-ecommerce ul:not(.links) {
     font-size: 16px;
     list-style-image: url('../css/images/bulletGreen.png');
     padding-left: 30px;
 }
+.brand {
+    border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background-color:#fff;
+}
 
-.branded .row ul li a {padding: 6px 5px; min-width:100px; font-size: 14px;}
-.brandedEcommerce .links {margin: 0 0 15px;}
-.brandedEcommerce .links li {width: 20%; display: inline; float: left;padding: 0 2px;}
 
-.brandedEcommerce h2 {font-size: 24px;}
-.branded {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #fff url('../css/images/fadedCircle.png') 185% no-repeat;}
-.branded .btn {color: #fff !important; padding-top: 20px; padding-bottom: 15px; font-size: 18px; border: none;}
-.branded .col-sm-3 .btn {margin-top: 5px;}
+.brand-social-media .row div {padding: 25px 0;}
+.brand .row ul li a {padding: 6px 5px; min-width:100px; font-size: 14px;}
+.brand .links {margin: 0 0 15px;}
+.brand .links li {width: 20%; display: inline; float: left;padding: 0 2px;}
+
+.brand-ecommerce h2 {font-size: 24px;}
+.brand-login {background: #fff url('../css/images/fadedCircle.png') 185% no-repeat;}
+.brand .btn {color: #fff !important; padding-top: 20px; padding-bottom: 15px; font-size: 18px; border: none;}
+.brand .col-sm-3 .btn {margin-top: 5px;}
 .splash li a {width: 100%; display: block; padding-top: 20px; padding-bottom: 15px;}
 .green, .green:hover {background-color: #4D9C2D;}
 .dkgreen, .dkgreen:hover {background-color: #008374;}
@@ -24,9 +29,19 @@ hr {border-color: transparent;}
 .dkred, .dkred:hover {background-color: #D73F22;;}
 .dkrred, .dkrred:hover {background-color: #932A47;}
 
+.brand-give-back {background: #ebc5d9 url('../css/images/giveBackbgl.png');}
 
-.brandedEcommerce  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #C8E1BE url('../css/images/fadedGreen.png') 185% repeat-y;}
-.brandedEcommerce .alert-info {background-color:#4D9C2D;color: #fff; border-color: transparent;}
+.brand-ecommerce  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #cbe1c4 url('../css/images/fadedGreen.png') 185% top repeat-y;}
+.brand-ecommerce .alert-info {background-color:#4D9C2D;color: #fff; border-color: transparent;}
+
+.brand-branding  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #fae0db url('../css/images/fadedRed.png') 175% top repeat-y;}
+.brand-branding .alert-info {background-color:#EB6851;color: #fff; border-color: transparent;}
+
+.brand-print  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #cce7f1 url('../css/images/fadedBlue.png') 185% top repeat-y;}
+.brand-print .alert-info {background-color:#0083C1;color: #fff; border-color: transparent;}
+
+.brand-fulfillment  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #cce7e4 url('../css/images/fadedDkgreen.png') 175% top repeat-y;}
+.brand-fulfillment .alert-info {background-color:#008374;color: #fff; border-color: transparent;}
 
  /*fadeIn splash */
 .splashMe {
@@ -59,33 +74,35 @@ hr {border-color: transparent;}
 .red5 {color:#932A47;}
 
 @media (max-width: 618px) {
-    .branded {background: #fff url('../css/images/fadedCircle.png') right -550px top no-repeat;}
-    .brandedEcommerce {background: #D9EDF7 url('../css/images/fadedGreen.png') right -350px top no-repeat; }
+    .brand-login {background: #fff url('../css/images/fadedCircle.png') right -550px top no-repeat;}
+    .brand-ecommerce {background: #D9EDF7 url('../css/images/fadedGreen.png') right -350px top no-repeat; }
     .splashMe .animated.rotateIn {margin: 0 auto !important;}
     .splashMe .bisplashlogo {margin: 35px auto 0 auto !important;}
-    .brandedEcommerce .links li {width: 100%; display: block; float: none;margin-top: 5px; }
-    .branded .row .col-sm-6 {text-align: center;}
-    .branded .row .col-sm-6 li { margin: 10px;}
+    .brand .links li {width: 100%; display: block; float: none;margin-top: 5px; }
+    .brand .row .col-sm-6 {text-align: center;}
+    .brand .row .col-sm-6 li { margin: 10px;}
 }
 @media (min-width: 618px) and (max-width: 768px) {
-    .branded {background: #fff url('../css/images/fadedCircle.png') right -350px top no-repeat;}
-    .brandedEcommerce {background: #D9EDF7 url('../css/images/fadedGreen.png') right -350px top no-repeat; }
+    .brand-login {background: #fff url('../css/images/fadedCircle.png') right -350px top no-repeat;}
+    .brand-ecommerce {background: #D9EDF7 url('../css/images/fadedGreen.png') right -350px top no-repeat; }
     .splashMe .animated.rotateIn {margin: 0 auto !important;}
     .splashMe .bisplashlogo {margin: 35px auto 0 auto !important;}
-    .branded .row .col-sm-6 {text-align: center;}
-    .branded .row .col-sm-6 li {margin: 10px;}
+    .brand .row .col-sm-6 {text-align: center;}
+    .brand .row .col-sm-6 li {margin: 10px;}
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-    .branded {background: #fff url('../css/images/fadedCircle.png') right -400px top no-repeat;max-width: 940px; margin-left: auto; margin-right: auto;}
-    .brandedEcommerce {max-width: 940px; margin-left: auto; margin-right: auto; background: #D9EDF7 url('../css/images/fadedGreen.png') right -350px top no-repeat;}
-    .branded .row .col-sm-6.text-left li:first-child {margin-right: 50px;}
-    .branded .row .col-sm-6.text-right li:last-child {margin-left: 50px;}
+    .brand-login {background: #fff url('../css/images/fadedCircle.png') right -400px top no-repeat;max-width: 940px; margin-left: auto; margin-right: auto;}
+    .brand-ecommerce {max-width: 940px; margin-left: auto; margin-right: auto; background: #D9EDF7 url('../css/images/fadedGreen.png') right -350px top no-repeat;}
+    .brand .row .col-sm-6.text-left li:first-child {margin-right: 50px;}
+    .brand .row .col-sm-6.text-right li:last-child {margin-left: 50px;}
+    .brand {max-width: 940px;}
 }
 
 @media (min-width: 1200px) {
-    .branded {max-width: 1140px; margin-left: auto; margin-right: auto; }
-    .brandedEcommerce {max-width: 1140px; margin-left: auto; margin-right: auto; }
-    .branded .row .col-sm-6.text-left li:first-child {margin-right: 50px;}
-    .branded .row .col-sm-6.text-right li:last-child {margin-left: 50px;}
+    .brand {max-width: 1140px; margin-left: auto; margin-right: auto; }
+    .brand-ecommerce {max-width: 1140px; margin-left: auto; margin-right: auto; }
+    .brand .row .col-sm-6.text-left li:first-child {margin-right: 50px;}
+    .brand .row .col-sm-6.text-right li:last-child {margin-left: 50px;}
+    .brand {max-width: 1140px;}
 }
