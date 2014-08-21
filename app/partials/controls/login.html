@@ -1,9 +1,7 @@
 <!--- branded --->
 <div class="brand brand-login container">
-
     <div class="splashMe animated fadeOut" style="pointer-events: none;position: absolute; left: 0; right: 0; top: 0; bottom: 0;z-index: 1; background-color:#fff;">
         <div style=" height: 100%; width: 100%;">
-            <!--- possible overlay of spinning icon and tagline --->
             <div class="row" style="margin-top: 100px;">
                 <div class="col-sm-6">
                     <div class="animated rotateIn" style="margin-left: 60%;height:200px; width: 200px; background: url('css/images/colorCirclelg.png') no-repeat;"></div>
@@ -20,36 +18,8 @@
                 <span class="red2">s</span><span class="blue1">o</span><span class="blue1">l</span><span class="blue1">u</span><span class="yellow1">t</span><span class="blue1">i</span><span class="blue1">o</span><span class="red5">n</span><span class="blue1">s</span>
             </h2>
         </div>
-
-
     </div>
 
-    <div>
-        <h1 style="height:119px; width: 250px; background: url('css/images/revisedHeader2.jpg') no-repeat;"></h1>
-        <div class="row">
-            <div class="col-sm-7">
-                <p style="font-size: 16px;">Brilliant Impressions has partnered with AIA corporation, a top 10 branding, print and fulfillment distributorship Brilliant Impressions provides clients with exceptional local service with unmatched creativity and industry knowledge. With this partnership, Brilliant Impressions is poised to leverage AIA's vast resources to deliver more comprehensive services to their clients through a multi-faceted appproach.</p>
-            </div>
-            <div class="col-sm-4 col-sm-offset-1">
-            </div>
-
-        </div>
-
-       <ul style="margin: 75px 0 130px 0;" class="splash">
-            <li class="col-sm-3">
-                <a class="btn btn-default green" href="splash/e-commerce.html" target="_self">e-commerce</a>
-            </li>
-            <li class="col-sm-3">
-                <a class="btn btn-default ltred" href="splash/branding.html"  target="_self">branding</a>
-            </li>
-            <li class="col-sm-3">
-                <a class="btn btn-default blue" href="splash/print.html"  target="_self">print</a>
-            </li>
-            <li class="col-sm-3">
-                <a class="btn btn-default dkgreen" href="splash/fulfillment.html"  target="_self">fulfillment</a>
-            </li>
-        </ul>
-    </div>
     <div ng-controller="ModalDemoCtrl">
         <script type="text/ng-template" id="myModalContent.html">
             <div class="modal-body" style="background:#F0F0F0 url('css/images/fadedCircle.png')  right -350px top no-repeat;">
@@ -140,30 +110,73 @@
             </div>
         </script>
 
-        <div class="row animated fadeInUp fadeInLinks">
-            <div class="col-sm-6 text-left">
-                <ul>
-                    <li style="display: inline-block; ;">
-                        <a class="btn btn-default" style="float: left;background-color:#cd998d;" href="splash/meetUs.html"  target="_self">meet us</a>
-                    </li>
-                    <li style="display: inline-block;">
-                        <a class="btn btn-default" style="float: left;background-color: #932a47;" href="splash/contact.html"  target="_self">contact us</a>
-                    </li>
 
+
+
+        <div class="animated fadeInDown fadeInLinks">
+            <div>
+                <ul class="splash links" style="margin-bottom: 25px; margin-top: 25px;">
+                    <li style="display: inline-block;width: 20%; ">
+                        <a class="btn btn-default green" href="splash/e-commerce.html" target="_self">e-commerce</a>
+                    </li>
+                    <li style="display: inline-block;width: 20%; ">
+                        <a class="btn btn-default ltred" href="splash/branding.html"  target="_self">branding</a>
+                    </li>
+                    <li style="display: inline-block;width: 20%; ">
+                        <a class="btn btn-default blue" href="splash/print.html"  target="_self">print</a>
+                    </li>
+                    <li style="display: inline-block;width: 20%; ">
+                        <a class="btn btn-default dkgreen" href="splash/fulfillment.html"  target="_self">fulfillment</a>
+                    </li>
+                    <li style="display: inline-block;width: 20%;">
+                        <a class="btn btn-default dkblue" href="splash/giveBack.html"  style="font-size: 12px; min-height: 60px; text-align: right;overflow: initial; white-space: initial;" target="_self">
+                            <img src="css/images/ribbonsm.png" style="float: left;"/>
+                            Brilliant Impressions gives back
+                        </a>
+                    </li>
                 </ul>
             </div>
-            <div class="col-sm-6 text-right">
-                <ul>
-                    <li style="display: inline-block; ">
-                        <a class="btn btn-default" style="float: left;background-color:#CB3524;"  href="splash/socialMedia.html" target="_self">social media</a>
+            <div>
+                <ul class="splash links">
+                    <li style="display: inline-block;">
+                        <a class="btn btn-default" style="background-color:#cd998d; font-size: 14px; padding-top: 5px; padding-bottom: 5px;" href=""  target="_self">shop</a>
                     </li>
                     <li style="display: inline-block;">
-                        <a class="btn btn-default dkblue" style="float: left;"  ng-click="open()">client login</a>
+                        <a class="btn btn-default" style="background-color:#CB3524;font-size: 14px; padding-top: 5px; padding-bottom: 5px;"  href="splash/socialMedia.html" target="_self">community</a>
+                    </li>
+                    <li style="display: inline-block;">
+                        <a class="btn btn-default" style="background-color:#cd998d;font-size: 14px; padding-top: 5px; padding-bottom: 5px;" href="splash/meetUs.html"  target="_self">culture</a>
+                    </li>
+                    <li style="display: inline-block; ">
+                        <a class="btn btn-default" style="background-color: #932a47;font-size: 14px; padding-top: 5px; padding-bottom: 5px;" href="splash/contact.html"  target="_self">connect</a>
+                    </li>
+                    <li style="display: inline-block;">
+                        <a class="btn btn-default dkblue" style="font-size: 14px; padding-top: 5px; padding-bottom: 5px;" ng-click="open()">client login</a>
                     </li>
                 </ul>
             </div>
         </div>
-
+        <div>
+            <h1 style="height:119px; width: 250px; background: url('css/images/revisedHeader2.jpg') no-repeat;"></h1>
+            <div class="row">
+                <div class="col-sm-7">
+                    <p style="font-size: 16px;">
+                        Brilliant Impressions has partnered with AIA corporation, award winning, print and fulfillment distributorship.
+                        Brilliant Impressions provides clients with exceptional local service with unmatched creativity and industry knowledge.
+                        With this partnership, Brilliant Impressions vast resources continues to deliver more comprehensive services to their multi-faceted approach.
+                    </p>
+                </div>
+                <div class="col-sm-4 col-sm-offset-1">
+                </div>
+            </div>
+            <h2 class="text-center" style="text-align: left;font-size: 24px;margin-top: 150px;text-transform: uppercase; ">
+                <span class="blue1">b</span><span class="blue1">r</span><span class="blue1">i</span><span class="blue2">g</span><span class="blue1">h</span><span class="blue1">t</span>
+                <span class="blue1">i</span><span class="green1">d</span><span class="blue1">e</span><span class="green2">a</span><span class="blue1">s</span>
+                <span class="blue1">f</span><span class="yellow1">o</span><span class="blue1">r</span>
+                <span class="red1">l</span><span class="blue1">a</span><span class="red2">s</span><span class="blue1">t</span><span class="blue1">i</span><span class="red3">n</span><span class="blue1">g</span>
+                <span class="red2">s</span><span class="blue1">o</span><span class="blue1">l</span><span class="blue1">u</span><span class="yellow1">t</span><span class="blue1">i</span><span class="blue1">o</span><span class="red5">n</span><span class="blue1">s</span>
+            </h2>
+        </div>
     </div>
 </div>
 <!--- branded --->
