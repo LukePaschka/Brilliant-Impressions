@@ -1,5 +1,8 @@
 body {  font-family: 'Lato',sans-serif;}
 hr {border-color: transparent;}
+p.links a {
+    margin: 0 5px;
+}
 .brand p {font-size: 16px;}
 .brand-ecommerce ul:not(.links) {
     font-size: 16px;
@@ -45,22 +48,31 @@ hr {border-color: transparent;}
 .blue, .blue:hover {background-color: #0083C1;}
 .dkblue, .dkblue:hover {background-color: #002A48;}
 .ltred, .ltred:hover {background-color: #EB6851;}
-.dkred, .dkred:hover {background-color: #D73F22;;}
-.dkrred, .dkrred:hover {background-color: #932A47;}
+.dkred, .dkred:hover {background-color: #CB3524;}
+.burg1, .burg1:hover  {background-color:#8A1D61;}
+.burg2, .burg2:hover {background-color: #932A47;}
+.burg3, .burg3:hover    {background-color: #CD998D;}
+.gray1, .gray1:hover  {background-color:#8E8F90;}
+.login1, .login1:hover {background-color:#415968;}
+
 
 .brand-give-back {background: #ebc5d9 url('../css/images/giveBackbgl.png');}
 
-.brand-ecommerce  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #cbe1c4 url('../css/images/fadedGreen.png') 185% top repeat-y;}
-.brand-ecommerce .alert-info {background-color:#4D9C2D;color: #fff; border-color: transparent;}
+.brand-ecommerce  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #fff url('../css/images/fadedBlue.png') 185% top repeat-y;}
+.brand-ecommerce .alert-info {background-color:#0083C1;color: #fff; border-color: transparent;}
 
-.brand-branding  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #fae0db url('../css/images/fadedRed.png') 175% top repeat-y;}
-.brand-branding .alert-info {background-color:#EB6851;color: #fff; border-color: transparent;}
+.brand-branding  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #fff url('../css/images/fadedGreen.png') 175% top repeat-y;}
+.brand-branding .alert-info {background-color:#4D9C2D;color: #fff; border-color: transparent;}
 
-.brand-print  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #cce7f1 url('../css/images/fadedBlue.png') 185% top repeat-y;}
-.brand-print .alert-info {background-color:#0083C1;color: #fff; border-color: transparent;}
+.brand-print  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #fff url('../css/images/fadedRed.png') 185% top repeat-y;}
+.brand-print .alert-info {background-color:#EB6851;color: #fff; border-color: transparent;}
 
-.brand-fulfillment  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #cce7e4 url('../css/images/fadedDkgreen.png') 175% top repeat-y;}
+.brand-fulfillment  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #fff url('../css/images/fadedDkgreen.png') 175% top repeat-y;}
 .brand-fulfillment .alert-info {background-color:#008374;color: #fff; border-color: transparent;}
+
+.brand-contact  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background-color:#fff;}
+.brand-contact .alert-info {background-color:#0083C1;color: #fff; border-color: transparent;}
+
 
  /*fadeIn splash */
 .splashMe {
