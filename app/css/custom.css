@@ -58,17 +58,17 @@ p.links a {
 
 .brand-give-back {background: #ebc5d9 url('../css/images/giveBackbgl.png');}
 
-.brand-ecommerce  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #fff url('../css/images/fadedBlue.png') 185% top repeat-y;}
-.brand-ecommerce .alert-info {background-color:#0083C1;color: #fff; border-color: transparent;}
+.brand-ecommerce  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #fff url('../css/images/ecommerceCircle.png') 185% top no-repeat;}
+.brand-ecommerce .alert-info {background-color:#0083C1;color: #fff; border-color: transparent;opacity: .75;}
 
-.brand-branding  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #fff url('../css/images/fadedGreen.png') 175% top repeat-y;}
-.brand-branding .alert-info {background-color:#4D9C2D;color: #fff; border-color: transparent;}
+.brand-branding  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #fff url('../css/images/brandingCircle.png') 175% top no-repeat;}
+.brand-branding .alert-info {background-color:#4D9C2D;color: #fff; border-color: transparent;opacity: .75;}
 
-.brand-print  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #fff url('../css/images/fadedRed.png') 185% top repeat-y;}
-.brand-print .alert-info {background-color:#EB6851;color: #fff; border-color: transparent;}
+.brand-print  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #fff url('../css/images/printCircle.png') 185% top repeat-y;}
+.brand-print .alert-info {background-color:#EB6851;color: #fff; border-color: transparent; opacity: .75;}
 
-.brand-fulfillment  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #fff url('../css/images/fadedDkgreen.png') 175% top repeat-y;}
-.brand-fulfillment .alert-info {background-color:#008374;color: #fff; border-color: transparent;}
+.brand-fulfillment  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #fff url('../css/images/fulfillmentCircle.png') 175% top repeat-y;}
+.brand-fulfillment .alert-info {background-color:#008374;color: #fff; border-color: transparent;opacity: .75;}
 
 .brand-contact  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background-color:#fff;}
 .brand-contact .alert-info {background-color:#0083C1;color: #fff; border-color: transparent;}
