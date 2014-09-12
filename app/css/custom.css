@@ -73,24 +73,26 @@ p.links a {
 .brand-contact  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background-color:#fff;}
 .brand-contact .alert-info {background-color:#0083C1;color: #fff; border-color: transparent;}
 
+.brand-culture  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #fff url('../css/images/ecommerceCircle.png') 185% top no-repeat;}
+.brand-culture .alert-info {background-color:#002a48;color: #fff; border-color: transparent;opacity: .75;}
 
  /*fadeIn splash */
 .splashMe {
-    animation-duration: 4s;
-    -moz-animation-duration: 4s;
-    -webkit-animation-duration: 4s;
-    animation-delay: 4s;
-    -moz-animation-delay: 4s;
-    -webkit-animation-delay: 4s;
+    animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -webkit-animation-delay: 2s;
     animation-iteration-count: 1;
     -moz-animation-iteration-count: 1;
     -webkit-animation-iteration-count: 1;
 }
 
 .fadeInLinks {
-    animation-delay: 4s;
-    -moz-animation-delay: 4s;
-    -webkit-animation-delay: 4s;
+    animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -webkit-animation-delay: 2s;
 }
 
 
