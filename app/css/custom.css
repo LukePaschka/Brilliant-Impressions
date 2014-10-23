@@ -49,14 +49,17 @@ p.links a {
 .dkblue, .dkblue:hover {background-color: #002A48;}
 .ltred, .ltred:hover {background-color: #EB6851;}
 .dkred, .dkred:hover {background-color: #CB3524;}
-.burg1, .burg1:hover  {background-color:#8A1D61;}
+/*.burg1, .burg1:hover  {background-color:#8A1D61;} update button to Holiday button*/
 .burg2, .burg2:hover {background-color: #932A47;}
 .burg3, .burg3:hover    {background-color: #CD998D;}
 .gray1, .gray1:hover  {background-color:#8E8F90;}
 .login1, .login1:hover {background-color:#415968;}
 
 
-.brand-give-back {background: #ebc5d9 url('../css/images/stripes.gif');}
+/*.brand-give-back {background: #ebc5d9 url('../css/images/stripes.gif');} update background to Holiday bubbles*/
+.holiday {
+    background: url("../css/images/holidaybubbles.jpg"); background-size: 100% 100%;
+}
 
 .brand-ecommerce  {border: 1px solid #d6d6d6; padding-left: 25px; padding-right: 25px; margin-top: 25px;background: #fff url('../css/images/ecommerceCircle.png') 185% top no-repeat;}
 .brand-ecommerce .alert-info {background-color:#0083C1;color: #fff; border-color: transparent;opacity: .75;}
